@@ -6,9 +6,9 @@ A lightweight command‑line translator function compatible with bash, zsh, and 
 ### Fish
 1. Save the function to your Fish configuration or functions directory:
 ```fish
-mkdir -p ~/.config/fish/functions  &
-  curl -o ~/.config/fish/functions/translate.fish https://raw.githubusercontent.com/e1berd/
-translatish/main/translate.fish
+mkdir -p ~/.config/fish/functions && \
+  curl -fsSL -o ~/.config/fish/functions/translate.fish \
+  https://raw.githubusercontent.com/e1berd/translatish/main/translate.fish
 
 # or just copy-paste the code into the file
 ```
